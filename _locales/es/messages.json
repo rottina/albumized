@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Albumized!",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "La caída de la carátula del álbum en la nueva pantalla de pestaña.",
+    "description": "The description under the name of the extension in the extensions page."
+  }
+}

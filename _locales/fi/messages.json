@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Albumized!",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Falling kansikuvia uudessa välilehden näytön.",
+    "description": "The description under the name of the extension in the extensions page."
+  }
+}

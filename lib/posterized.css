@@ -1,0 +1,205 @@
+@charset "utf-8";
+* { margin: 0; padding: 0; -webkit-tap-highlight-color: rgba(0,0,0,0); box-sizing: border-box;}
+::selection { background: rgba(16, 16, 25, 1); }
+@font-face {font-family: 'Menlo'; src:  url('menlo-webfont.woff') format('woff');}
+
+html{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+body {
+	background-color: rgba(16, 16, 25, 1);
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  height: 100%;
+  max-height: 100%;
+  font-family: 'Menlo', sans-serif;
+}
+
+.opts {margin: 5em;color: rgba(255, 254, 250, 1);}
+.opts a { color: rgba(85, 172, 238, 0.66); text-decoration: none;}
+.opts #customsearch { width: 20em; }
+.opts #albumized_pref_musicgenre { width: 13em; }
+.opts select { width: 5em; }
+.opts option { padding: 0.5em; }
+
+.buttonz {
+  margin-right: 5px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #10405e);
+  border-radius: 5px;
+  font-family: 'Menlo', sans-serif;
+  color: rgba(255, 255, 255, 1);;
+  font-size: 0.8em;
+  padding: 0.55em;
+  text-decoration: none;
+  outline: 0;
+}
+
+.buttonz:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+header {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 125px;
+  height: 30px;
+  z-index: 100;
+  line-height: 0;
+  font-size: 1.42em;
+  overflow: visible;
+  color: rgba(55, 55, 55, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  display: block;
+  background-image: url(/img/noun_87940_cc_light.svg);
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: left 0;
+}
+
+header.sheep {
+  height: 45px !important;
+  background-image: url(/img/sheep.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 33px 33px !important;
+  background-position: 0 5px !important;
+}
+
+main a {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  z-index: 111;
+  overflow: visible;
+  display: block;
+  background: url(/img/settings.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: -12px -12px;
+  font-size: 0;
+}
+
+h1 {
+  background: transparent;
+  margin: 0.36em 0 0 3em;
+  line-height: 1em;
+  font-size: 0.75em;
+  overflow: visible;
+  color: rgba(75, 77, 88, 1);
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  margin: 0.3em auto 0 5.58em;
+  height: auto;
+  background: transparent;
+  line-height: 1em;
+  font-size: 7px;
+  overflow: visible;
+  color: rgba(85, 172, 238, 0.66);
+  text-transform: lowercase;
+  letter-spacing: 0.08em;
+}
+h2 a { color: inherit; text-decoration: none;}
+
+h3 {
+  margin: 0.66em auto 0 5.5em;
+  padding-left: 5px;
+  height: auto;
+  background: transparent;
+  line-height: 1em;
+  font-size: 7px;
+  overflow: visible;
+  color: rgba(135, 140, 66, 1);
+  text-transform: lowercase;
+  letter-spacing: 0.08em;
+}
+
+.typed-cursor {
+  display: block;
+  position: absolute;
+  top: 33px;
+  right: 77px;
+  font-size: .08em;
+  opacity: 1;
+  animation: blink 1.5s infinite;
+  color: rgba(80,80,40,1);
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.album { position: fixed; width: 10px; height: 10px; top: -100px; }
+#canvas-body {
+   max-width: 100%;
+   max-height: 100%;
+   width: 100%;
+   height: 100%;
+   margin-left: 0;
+   margin-right: 0;
+   background-color: rgba(16, 16, 25, 1);
+}
+
+.scrolling{
+  position:absolute; left:0; top:0; width:100%; height:100%; overflow-y:scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+#accelerationY{
+  position: fixed;
+  top: 100px;
+  left: 60px;
+}
+
+#orientation{
+  position: fixed;
+  top: 120px;
+  left: 60px;
+}
+
+em { cursor: help; }
+
+small { color: #eee; }
+
+.vday {color: rgba(240, 140, 235, 0.66)}
+.valentines {color: rgba(255, 02, 20, 0.66)}
+.hallo {color: rgba(255, 118, 0, 0.66)}
+.ween {color: rgba(230, 235, 15, 0.66)}
+.merry {color: rgba(251, 50, 45, 0.66)}
+.xmas {color: rgba(33, 205, 80, 0.66)}
+.happy {color: rgba(170, 170, 120, 1)}
+.newyear {color: rgba(249, 249, 249, 0.66)}
+.ringy {color: rgba(245, 238, 219, 0.66)}
+.sheep {color: rgba(142, 141, 142, 0.66)}

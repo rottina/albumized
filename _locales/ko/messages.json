@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Albumized!",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "새 탭 화면에 앨범 아트가 떨어집니다.",
+    "description": "The description under the name of the extension in the extensions page."
+  }
+}

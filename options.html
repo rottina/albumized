@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>🎶 Albumized! User Options</title>
+  <link href="/lib/albumized.css" rel="stylesheet" type="text/css">
+</head>
+<body class="opts">
+  <header>
+    <h1>albumized!</h1>
+    <h2>user preferences</h2>
+  </header>
+
+  <h4>Background color:</h4>
+  <input id="albumized_pref_bgcolor" class="color" value="101019">
+  <br/><br/>
+  <h4>Ball color:</h4>
+  <input id="albumized_pref_ballcolor" class="color" value="1A2433">
+  <br/><br/>
+  <h4>Number of balls:</h4>
+  <select name="btot" id="albumized_pref_balltotal">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15" selected>15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+  </select>
+  <br/><br/>
+
+  <h4>Gravity: <small>(larger = faster)</small> <em title="Gravity is a force which tries to pull two objects toward each other. Anything which has mass also has a gravitational pull. The more massive an object is, the stronger its gravitational pull is.">💡</em></h4>
+  <select name="gravity" id="albumized_pref_gravity">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9" selected>9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+  </select><br><br>
+
+  <h4>Density: <small>(larger = heavier)</small> <em title="Density is the mass per unit volume.">💡</em></h4>
+  <select name="density" id="albumized_pref_density">
+    <option value="0">0</option>
+    <option value="0.1">0.1</option>
+    <option value="0.2">0.2</option>
+    <option value="0.3">0.3</option>
+    <option value="0.4">0.4</option>
+    <option value="0.5">0.5</option>
+    <option value="0.6">0.6</option>
+    <option value="0.7">0.7</option>
+    <option value="0.8">0.8</option>
+    <option value="0.9">0.9</option>
+    <option value="1.0" selected>1.0</option>
+  </select><br><br>
+
+  <h4>Friction: <small>(larger = less slippery)</small> <em title="The friction force is the force exerted by a surface as an object moves across it or makes an effort to move across it.">💡</em></h4>
+  <select name="friction" id="albumized_pref_friction">
+    <option value="0">0</option>
+    <option value="0.1">0.1</option>
+    <option value="0.2">0.2</option>
+    <option value="0.3" selected>0.3</option>
+    <option value="0.4">0.4</option>
+    <option value="0.5">0.5</option>
+    <option value="0.6">0.6</option>
+    <option value="0.7">0.7</option>
+    <option value="0.8">0.8</option>
+    <option value="0.9">0.9</option>
+    <option value="1.0">1.0</option>
+  </select><br><br>
+
+  <h4>Restitution: <small>(larger = more perfect)</small> <em title="The coefficient of restitution (COR) is the ratio of the final to initial velocity difference between two objects after they collide. It normally ranges from 0 to 1 where 1 would be a perfectly elastic collision.">💡</em></h4>
+  <select name="restitution" id="albumized_pref_restitution">
+    <option value="0">0</option>
+    <option value="0.1">0.1</option>
+    <option value="0.2">0.2</option>
+    <option value="0.3" selected>0.3</option>
+    <option value="0.4">0.4</option>
+    <option value="0.5">0.5</option>
+    <option value="0.6">0.6</option>
+    <option value="0.7">0.7</option>
+    <option value="0.8">0.8</option>
+    <option value="0.9">0.9</option>
+    <option value="1.0">1.0</option>
+  </select><br><br>
+
+  <h4>Sheep icon:</h4>
+  <input id="albumized_pref_sheep" type="checkbox" name="sheep"><small> Substitute the Fro-man icon with Kabob the sheep!</small>
+  <br/><br/>
+  <input id="submit" type="submit" class="buttonz" value="Save"> <input id="defaults" type="submit" class="buttonz" value="Reset">
+
+  <br/><br/><br/><br/><small>
+  About | Inspiration | Credits | Thanks<br/>
+  <small>Created by <a href="https://twitter.com/rottina">@rottina</a>.  Special thanks to the following&hellip;<br/>
+  <a href="http://jscolor.com/">jscolor</a> ♪ <a href="https://github.com/hecht-software/box2dweb">box2dweb</a> ♪ <a href="https://thenounproject.com/search/?q=music&i=87940">funk icon by melvin salas</a> ♪ <a href="https://github.com/snaptortoise/konami-js">konami js</a> ♪ <a href="http://www.mattboldt.com/demos/typed-js/">Typed.js</a><br><a href="http://p--m.co">p--m.co</a> ♪ <a href="https://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html">itunes api</a> ♪ <a href="https://twitter.com/chrislundeen">@chrislundeen</a> ♪ <a href="https://twitter.com/andrewtdunn">@andrewtdunn</a> ♪ <a href="https://twitter.com/matthewcanning">@matthewcanning</a></small></small>
+
+  <script src="/lib/jquery.min.js"></script>
+  <script src="/lib/jscolor/jscolor.js"></script>
+  <script src="/lib/options.js"></script>
+</body>
+</html>

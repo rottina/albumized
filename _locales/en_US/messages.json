@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Albumized!",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Falling album art on your new tab screen.",
+    "description": "The description under the name of the extension in the extensions page."
+  }
+}
