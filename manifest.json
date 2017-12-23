@@ -28,7 +28,7 @@
     "tabs"
   ],
   "short_name": "Albumized",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "web_accessible_resources": [
     "index.html",
     "img/*.*",
