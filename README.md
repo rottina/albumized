@@ -1,5 +1,5 @@
 # Albumized!
-Replace your boring new tab screen! Enjoy tumbling album covers each time you open a new tab.
+Replace your boring new tab screen. Enjoy tumbling album art each time you open a new tab.
 
 * [Albumized! Chrome Store URL](https://chrome.google.com/webstore/detail/albumized/mlkpfclkgiaocddpdpcmabfghfhhcnao)
 
