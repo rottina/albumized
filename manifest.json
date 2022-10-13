@@ -1,6 +1,6 @@
 {
   "author": "Mike Rottina",
-  "page_action": {
+  "action": {
     "default_icon": {
       "48": "img/icon48.png"
     }
@@ -17,21 +17,24 @@
     "128": "img/icon128.png"
   },
   "incognito": "spanning",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "__MSG_extName__",
   "offline_enabled": false,
   "options_page": "options.html",
   "permissions": [
-    "*://*.apple.com/*",
-    "*://*.appspot.com/*",
-    "storage",
-    "tabs"
+    "tabs",
+    "storage"
   ],
+  "host_permissions": [
+    "*://*.apple.com/*",
+    "*://*.appspot.com/*"
+  ],
+  "optional_host_permissions": [ "*://*/*" ],
   "short_name": "Albumized",
-  "version": "2.7.1",
-  "web_accessible_resources": [
-    "index.html",
-    "img/*.*",
-    "lib/*.*"
-  ]
+  "version": "2.8",
+  "web_accessible_resources": [{
+    "matches": ["<all_urls>"],
+    "resources": ["index.html", "options.html", "img/*.*", "lib/*.*"],
+    "use_dynamic_url": true
+  }]
 }
