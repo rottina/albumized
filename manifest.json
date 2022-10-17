@@ -22,8 +22,7 @@
   "offline_enabled": false,
   "options_page": "options.html",
   "permissions": [
-    "tabs",
-    "storage"
+    "tabs"
   ],
   "host_permissions": [
     "*://*.apple.com/*",
