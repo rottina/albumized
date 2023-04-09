@@ -30,7 +30,7 @@
   ],
   "optional_host_permissions": [ "*://*/*" ],
   "short_name": "Albumized",
-  "version": "2.8",
+  "version": "2.9.0",
   "web_accessible_resources": [{
     "matches": ["<all_urls>"],
     "resources": ["index.html", "options.html", "img/*.*", "lib/*.*"],
