@@ -26,11 +26,12 @@
   ],
   "host_permissions": [
     "*://*.apple.com/*",
+    "*://*.rottina.com/*",
     "*://*.appspot.com/*"
   ],
   "optional_host_permissions": [ "*://*/*" ],
   "short_name": "Albumized",
-  "version": "2.9.3",
+  "version": "3.0.0",
   "web_accessible_resources": [{
     "matches": ["<all_urls>"],
     "resources": ["index.html", "options.html", "img/*.*", "lib/*.*"],

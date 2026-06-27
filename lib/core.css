@@ -22,7 +22,7 @@ body {
 }
 
 .opts {margin: 5em;color: rgba(255, 254, 250, 1);}
-.opts a { color: rgba(85, 172, 238, 0.66); text-decoration: none;}
+.opts a { color: rgba(85, 172, 238, 0.85); text-decoration: none;}
 .opts #customsearch { width: 20em; }
 .opts #albumized_pref_musicgenre { width: 13em; }
 .opts select { width: 5em; margin-bottom: 1em; }
@@ -82,20 +82,22 @@ main a {
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background: url(/img/settings.svg);
+  cursor: context-menu;
   display: block;
+  filter: contrast(0.5);
   font-size: 0;
   height: 32px;
-  left: 5px;
+  left: 0;
   overflow: visible;
   position: absolute;
-  top: 5px;
+  top: -5px;
   width: 32px;
   z-index: 111;
 }
 
 h1 {
   background: transparent;
-  color: rgba(75, 77, 88, 1);
+  color: rgba(140, 140, 140, 1);
   font-size: 0.75em;
   letter-spacing: -0.015em;
   line-height: 1em;
@@ -106,7 +108,7 @@ h1 {
 
 h2 {
   background: transparent;
-  color: rgba(85, 172, 238, 0.66);
+  color: rgba(103, 203, 238, 1);
   font-size: 7px;
   height: auto;
   letter-spacing: 0.08em;
@@ -119,7 +121,7 @@ h2 a { color: inherit; text-decoration: none;}
 
 h3 {
   background: transparent;
-  color: rgba(135, 140, 66, 1);
+  color: rgba(15, 239, 132, 1);
   font-size: 7px;
   height: auto;
   letter-spacing: 0.08em;
@@ -132,7 +134,7 @@ h3 {
 
 .typed-cursor {
   animation: blink 1.5s infinite;
-  color: rgba(80,80,40,1);
+  color: rgba(15, 239, 132, 1);
   display: block;
   font-size: .08em;
   opacity: 1;
