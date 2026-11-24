@@ -4,4 +4,5 @@ Replace your boring new tab screen. Enjoy gravity-defying album art every time y
 * [Albumized! Chrome Store URL](https://chrome.google.com/webstore/detail/albumized/mlkpfclkgiaocddpdpcmabfghfhhcnao)
 
 ## Screenshot
-![Screenshot](https://lh3.googleusercontent.com/jupPaPP-A8W7vMz0z5_PZTjgCREe9DVcEO9PvT2FYKIRKJ7oohWWWCpxtfeNMJyFRMVHoaEheyI=s1280-h800-e365-rw "Albumized!")
+<img width="1280" height="800" alt="albmzd" src="https://github.com/user-attachments/assets/c6b76bfe-00f0-4698-9b73-0df843fca1bb" />
+
